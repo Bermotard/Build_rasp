@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/bernard/pokyzeus/rpi3-build/tmp
+SSTATE_DIR /home/bernard/pokyzeus/rpi3-build/sstate-cache
+NATIVELSBSTRING ubuntu-18.04
