@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/
 rm -Rf pokyzeus
 git clone -b zeus git://git.yoctoproject.org/poky pokyzeus
 cd pokyzeus
