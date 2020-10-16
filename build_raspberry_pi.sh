@@ -21,7 +21,7 @@ git clone -b zeus https://github.com/IntelRealSense/meta-intel-realsense.git
 echo "git clone -b zeus  git://git.yoctoproject.org/meta-raspberrypi"
 git clone -b zeus  git://git.yoctoproject.org/meta-raspberrypi
 echo "source oe-init-build-env rpi3_build"
-source oe-init-build-env rpi3_build
+./oe-init-build-env rpi3_build
 echo "core-image-minimal"
 bitbake  core-image-minimal
 echo "bitbake package-index"
